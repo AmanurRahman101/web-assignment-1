@@ -57,6 +57,29 @@
     border-radius: 8px;
     margin-top: 30px;
 
+  }
 
+  /* Reason Styles*/
 
+  .title{
+
+    font-family: "Azeret Mono";
+    font-weight: 800 ;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .descrption{
+
+    font-family: "Azeret Mono";
+    
+
+  }
+
+  main{
+
+    max-width: 1140px;
+    margin: 0 auto;
+
+    
   }
