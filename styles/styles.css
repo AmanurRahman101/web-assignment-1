@@ -59,7 +59,7 @@
 
   }
 
-  /* Reason Styles*/
+  /* Main Styles*/
 
   .title{
 
@@ -69,17 +69,82 @@
     text-align: center;
   }
 
-  .descrption{
+  .subtitle{
 
     font-family: "Azeret Mono";
-    
+    font-weight: 700 ;
+    font-size: 24px;
+  }
 
+
+  .title_description{
+
+    
+    font-family: "Azeret Mono";
+    font-weight:400;
+    font-size: 16px;
+    text-align:center;
+    
+    
+  }
+  .description{
+
+    
+    font-family: "Azeret Mono";
+    font-weight:400;
+    font-size: 16px;
+    text-align:start;
+    
+    
   }
 
   main{
 
     max-width: 1140px;
     margin: 0 auto;
+    margin-top: 150px;
 
     
+  }
+
+  
+
+  .main_section1{
+
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  .text{
+
+    max-width: 480px;
+
+  }
+
+  .learn_more{
+
+    font-family: "Azeret Mono";
+    font-weight: 600;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin-top: 32px;
+    background-color: white;
+    color:lightslategrey;
+    
+
+  }
+
+
+  .main_section2{
+
+     margin-top: 200px; 
+
+
+  }
+
+  .container{
+
+    margin: 80px;
   }
