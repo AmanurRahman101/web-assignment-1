@@ -84,8 +84,9 @@
     font-weight:400;
     font-size: 16px;
     text-align:center;
-    
-    
+    margin-left: 150px;
+    margin-right: 150px; 
+    color:  #807C7C;
   }
   .description{
 
@@ -94,6 +95,9 @@
     font-weight:400;
     font-size: 16px;
     text-align:start;
+    color:  #807C7C;
+    
+    
     
     
   }
@@ -122,7 +126,8 @@
     max-width: 480px;
 
   }
-
+  
+  /*Button styles*/
   .learn_more{
 
     font-family: "Azeret Mono";
@@ -136,6 +141,18 @@
 
   }
 
+  .learn_more2{
+
+    font-family: "Azeret Mono";
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+
+  }
+
+
+  /*Button styles*/
+
 
   .main_section2{
 
@@ -147,4 +164,41 @@
   .container{
 
     margin: 80px;
+    margin-bottom: 170px;
+    padding: 10px 10px ;
+    border-radius: 16px;
+
   }
+
+  .html{
+
+    background-color: #FDEDCF;
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 280px;
+  }
+
+  .css{
+
+    background-color: #D4EFFC;
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 280px;
+
+  }
+
+  .java{
+
+    background-color: #FEFBDE ;
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 280px;
+
+  }
+
+  .current_targets{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
