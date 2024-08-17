@@ -116,6 +116,9 @@
   .main_section1{
 
     margin-top: 96px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 48px 48px;
     display: flex;
     justify-content: space-evenly;
 
@@ -153,7 +156,13 @@
 
   /*Button styles*/
 
+.shadow{
 
+  background-color: rgba(0,0,0,0.03);
+  border-radius: 16px;
+  padding: 80px 97px;
+
+}
   
 
   .main_section2{
@@ -262,6 +271,24 @@
 
   
   justify-content:;
+
+}
+
+.footer_container{
+ 
+  display:flex ;
+  justify-content: space-between;
+  
+  padding: 20px 150px;
+  margin-top: 65px;
+  background-color: rgba(0,0,0,0.03);
+
+
+  }
+
+.icons{
+
+  padding-top: 15px;
 
 }
 
