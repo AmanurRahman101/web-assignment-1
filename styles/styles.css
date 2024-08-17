@@ -4,12 +4,18 @@
   font-style: normal;
 }
 
+html{
+
+  scroll-behavior: smooth;
+}
+
 /* banner styles */
 
   .header{
 
     background-image: url('../images/Hero-bg.png');
     background-position: top;
+    background-size: contain;
 
   }
 
@@ -48,6 +54,7 @@
 
   .contact_button{
 
+    
     font-family: "Azeret Mono";
     font-weight: 600;
     font-size: 20px;
@@ -56,6 +63,9 @@
     padding: 21px 24px;
     border-radius: 8px;
     margin-top: 30px;
+    text-decoration: none;
+    
+    
 
   }
 
@@ -267,12 +277,7 @@
    
 
   }
-.submission{
 
-  
-  justify-content:;
-
-}
 
 .footer_container{
  
